@@ -1,0 +1,9 @@
+- Data: Loan borrowers
+	+ Each row providing borrower details (income, total loans outstanding, ...)
+	+ A column indicating if borrower has previously defaulted 
+- Objective: Use this data to build a model that predict the probability that borrower will default (PD)
+	+ Use data to train a function and estimate the PD 
+	+ Recovery rate of 10%
+- Idea:
+	+ A function that take in properties of a loan => output: expected loss.
+	+ Technique: regression, decision tree,.... 
